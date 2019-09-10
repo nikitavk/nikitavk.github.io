@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hi</title>
+    <style>
+      .options {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="main.js"></script>
+    <div class="options">
+      <label for="omega">omega</label>
+      <input type="range" id="omega" min="0" max="1" step="0.01" />
+      <label for="phase">phase</label>
+      <input type="range" id="phase" min="0" max="1" step="0.01" />
+      <label for="quantval">quantval</label>
+      <input type="range" id="quantval" min="0" max="100" step="0.5" />
+      <select id="direction">
+        <option>horizontal</option>
+        <!-- <option>vertical</option> -->
+      </select>
+      <label for="lowpass1">lowpass1</label>
+      <input type="checkbox" id="lowpass1" checked />
+      <label for="lowpass2">lowpass2</label>
+      <input type="checkbox" id="lowpass2" checked />
+      <label for="lowpass3">lowpass3</label>
+      <input type="checkbox" id="lowpass3" checked />
+    </div>
+  </body>
+</html>
